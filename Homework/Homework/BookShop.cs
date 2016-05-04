@@ -11,12 +11,12 @@ namespace Homework
         public double GetTotalPrice(List<Book> booksTobuy)
         {
             var distinctBook = booksTobuy.Distinct().ToList();
-            double discount;
+            double discount = 0;
             if (distinctBook.Count == 2)
                 discount = 0.05;
-            else
+            else if(distinctBook.Count==3)
             {
-                discount = 0;
+                discount = 0.1;
             }
             double Totalprice=0;
             foreach(var book in booksTobuy)
