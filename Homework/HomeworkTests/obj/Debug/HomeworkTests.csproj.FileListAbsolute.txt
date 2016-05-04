@@ -1,0 +1,8 @@
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\HomeworkTests\bin\Debug\HomeworkTests.dll
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\HomeworkTests\bin\Debug\HomeworkTests.pdb
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\HomeworkTests\bin\Debug\Homework.dll
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\HomeworkTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\HomeworkTests\bin\Debug\Homework.pdb
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\HomeworkTests\obj\Debug\HomeworkTests.csprojResolveAssemblyReference.cache
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\HomeworkTests\obj\Debug\HomeworkTests.dll
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\HomeworkTests\obj\Debug\HomeworkTests.pdb

@@ -1,0 +1,5 @@
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\Homework\bin\Debug\Homework.dll
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\Homework\bin\Debug\Homework.pdb
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\Homework\obj\Debug\Homework.csprojResolveAssemblyReference.cache
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\Homework\obj\Debug\Homework.dll
+C:\Users\tao.song51\Documents\GitHub\homework\Homework\Homework\obj\Debug\Homework.pdb
