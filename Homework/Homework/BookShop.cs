@@ -14,7 +14,7 @@ namespace Homework
             double discount = 0;
             if (distinctBook.Count == 2)
                 discount = 0.05;
-            else if(distinctBook.Count==3)
+            else if (distinctBook.Count == 3)
             {
                 discount = 0.1;
             }
@@ -26,14 +26,19 @@ namespace Homework
             {
                 discount = 0.25;
             }
-            double Totalprice=0;
-            foreach(var book in booksTobuy)
+            double Totalprice = 0;
+            var discountPriceno = 0;
+            foreach (var book in booksTobuy)
             {
-                if(!distinctBook.Contains(book))
+                if (!distinctBook.Contains(book)||discountPriceno==distinctBook.Count)
                 {
                     Totalprice += book.Price;
                 }
-                Totalprice += book.Price * (1 - discount);
+                else
+                {
+                    Totalprice += book.Price * (1 - discount);
+                    discountPriceno++;
+                }
             }
             return Totalprice;
         }
