@@ -22,6 +22,10 @@ namespace Homework
             {
                 discount = 0.2;
             }
+            else if (distinctBook.Count == 5)
+            {
+                discount = 0.25;
+            }
             double Totalprice=0;
             foreach(var book in booksTobuy)
             {
