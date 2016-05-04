@@ -77,6 +77,31 @@ namespace Homework.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        [TestMethod()]
+        public void GetTotalPriceTest_5_different_book_25percent_discount()
+        {
+            var bookCollection = new List<Book>
+            {
+                new Book { Id =1, Price=100 },
+                new Book { Id =2, Price=100 },
+                new Book { Id =3, Price=100 },
+                new Book { Id =4, Price=100 },
+                new Book { Id =5, Price=100 }
+            };
+            var booksTobuy = new List<Book>();
+            booksTobuy.Add(bookCollection.Find(m => m.Id == 1));
+            booksTobuy.Add(bookCollection.Find(m => m.Id == 2));
+            booksTobuy.Add(bookCollection.Find(m => m.Id == 3));
+            booksTobuy.Add(bookCollection.Find(m => m.Id == 4));
+            booksTobuy.Add(bookCollection.Find(m => m.Id == 5));
+            var target = new BookShop();
+
+            var actual = target.GetTotalPrice(booksTobuy);
+
+            var expected = 375;
+            Assert.AreEqual(expected, actual);
+        }
+
 
     }
 }
