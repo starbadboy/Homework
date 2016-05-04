@@ -24,7 +24,7 @@ namespace Homework.Tests
             var booksTobuy = bookCollection.Where(m => m.Id == 1 || m.Id == 2).ToList() ; 
             var target = new BookShop();
 
-            decimal actual = target.GetTotalPrice(booksTobuy);
+            var actual = target.GetTotalPrice(booksTobuy);
 
             var expected = 190;
             Assert.AreEqual(expected, actual);
